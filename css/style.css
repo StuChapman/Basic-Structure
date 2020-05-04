@@ -1,0 +1,19 @@
+.border {
+    text-align:center;
+    background-color: rgb(230, 235, 243);
+    border: 10px solid;
+    border-color: black;
+    border-radius: 5px;
+    color: black;
+}
+
+.border2 {
+    text-align:center;
+    background-color: rgb(231, 138, 153);
+    border: 1px solid;
+    border-color: black;
+    border-radius: 5px;
+    color: black;
+}
+
+    
