@@ -12,38 +12,74 @@
 	</head>
 
     <body>
-    
-        <nav>
-            <div class="row">
-                <div class="col-1 border"><a href="index.html">One</a></div>
-                <div class="col-1 border"><a href="index.html">Two</a></div>
-                <div class="col-1 border"><a href=#>Three</a></div>
-                <div class="col-1 border"><a href=#>Four</a></div>
-                <div class="col-1 border"><a href=#>Five</a></div>
-                <div class="col-1 border"><a href=#>Six</a></div>
-                <div class="col-1 border"><a href=#>Seven</a></div>
-                <div class="col-1 border"><a href=#>Eight</a></div>
-                <div class="col-1 border"><a href=#>Nine</a></div>
-                <div class="col-1 border"><a href=#>Ten</a></div>
-                <div class="col-1 border"><a href=#>Eleven</a></div>
-                <div class="col-1 border"><a href=#>Twelve</a></div>
-            </div>
+
+        <nav>  
+            <ul class="nav">
+                <a class="navbar-brand" href="#">Brand</a>
+                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+            </ul>
         </nav>
 
-        <section>
+        <section> 
+            <ul class="list-group">
+                <li class="list-group-item active">First</li>
+                <li class="list-group-item">Second</li>
+                <li class="list-group-item">Third</li>
+                <li class="list-group-item">Fourth</li>
+                <li class="list-group-item disabled">Disabled</li>
+            </ul>
+            <div class="list-group list-hover">
+                <a href="#" class="list-group-item list-group-item-action active">First</a>
+                <a href="#" class="list-group-item list-group-item-action">Second</a>
+                <a href="#" class="list-group-item list-group-item-action">Third</a>
+                <a href="#" class="list-group-item list-group-item-action">Fourth</a>
+                <a href="#" class="list-group-item list-group-item-action disabled">Disabled</a>
+            </div>
+
+        </section>
+
+        <section class="twelve-section">
             <div class="row">
-                <div class="col-4 border">Paragraph 1</div>
-                <div class="col-4 border">Paragraph 1</div>
-                <div class="col-4 border">Paragraph 1</div>
+                <div class="col-1"><a href="index.html">One</a></div>
+                <div class="col-1"><a class="a-active" href="index.html">Two</a></div>
+                <div class="col-1"><a href=#>Three</a></div>
+                <div class="col-1"><a href=#>Four</a></div>
+                <div class="col-1"><a href=#>Five</a></div>
+                <div class="col-1 div-box"><a href=#>Six</a></div>
+                <div class="col-1"><a href=#>Seven</a></div>
+                <div class="div-box col-1"><a href=#>Eight</a></div>
+                <div class="col-1"><a href=#>Nine</a></div>
+                <div class="col-1"><a href=#>Ten</a></div>
+                <div class="col-1"><a href=#>Eleven</a></div>
+                <div class="col-1"><a href=#>Twelve</a></div>
             </div>
         </section>
 
-        <section>
+        <section class="three-section d-none d-sm-block">
+            <div class="row">
+                <div class="col-4">Paragraph 1</div>
+                <div class="col-4 div-box">Paragraph 2</div>
+                <div class="col-4">Paragraph 3</div>
+            </div>
+        </section>
+
+        <section class="four-section d-none d-md-block">
+            <div class="row list-hover">
+                <div class="col-3">Paragraph 1</div>
+                <div class="col-3">Paragraph 2</div>
+                <div class="col-3">Paragraph 3</div>
+                <div class="col-3">Paragraph 4</div>
+            </div>
+        </section>
+
+        <section class="four-section d-block d-md-none">
             <div>
-                <div class="border2">Paragraph 1</div>
-                <div class="border">Paragraph 1</div>
-                <div class="border">Paragraph 1</div>
+                <div>Paragraph 1</div>
+                <div>Paragraph 2</div>
+                <div>Paragraph 3</div>
+                <div>Paragraph 4</div>
             </div>
         </section>
-
     </body>
