@@ -54,10 +54,24 @@
     height:100%;
 }
 
+li a:hover {
+    font-weight:bolder;
+}
+
 a:hover {
     font-weight:bolder;
 }
 
-.list-hover:hover {
-    background-color: purple;
+nav a:hover {
+    font-weight:inherit;
 }
+
+.list-hover:hover {
+    font-weight:inherit;
+    color:purple;
+    background-color: rgba(236, 185, 236, 0.247);
+}
+
+li:active {
+    color:white;
+    background-color: rgba(236, 185, 236, 0.247);
